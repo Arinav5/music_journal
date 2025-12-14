@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: ease-in-out 100ms;
+}
+
+body {
+    background-color: rgb(207, 229, 247);;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 40px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(75, 3, 78);
+    font-size: large;
+}
+
+a.current {
+    font-weight: bold;
+}
+
+a:hover {
+    scale: calc(1.05);
+}
+
+.ratings {
+    display: flex;
+    justify-content: center;
+}
+
+.ratings-container {
+    width: 100%;
+    height: 22rem;
+    background-color: rgb(240, 214, 236);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    padding-top: 20px;
+    border-top: 2px solid rgb(75, 3, 78);
+    border-bottom: 2px solid rgb(75, 3, 78);
+}
+
+.song-rating {
+    border: 1px solid rgb(75, 3, 78);
+    width: 20%;
+    height: 9rem;
+    border-radius: 5px;
+    background-color: rgb(226, 231, 207);
+    border: solid 3px rgb(75, 3, 78);
+    padding: 5px;
+    box-shadow: 0px 3px 0px;
+    cursor: pointer;
+}
+
+.song-rating:hover {
+    scale: calc(1.02);
+}
