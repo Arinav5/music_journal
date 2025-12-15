@@ -30,7 +30,13 @@ Open a browser and navigate to:
 
 http://127.0.0.1/music_journal/app/auth/login.php
 
-
+## Layout
+- app directory contains the pages directory and auth directory
+- pages directory contains the main page
+- auth directory contains login, logout, signup pages and functionality
+- db contains the start up code for sql table creation
+- css directory contains the css for the webpage
+  
 ## Usage
 
 - Sign up for a new account
@@ -47,3 +53,4 @@ http://127.0.0.1/music_journal/app/auth/login.php
 ## Repository
 
 GitHub URL: https://github.com/Arinav5/music_journal
+
