@@ -1,4 +1,49 @@
-The website we plan on building is a playlist/music library where users can comment on songs, albums, and artists that they listen to or recently found. 
-It will be like a journal of music reflecting what they thought of different artists and songs at different times in their life. 
-They can choose to share these comments or they can be made private. We might implement a catalog of songs/artists that can be tagged in the review. 
-Additionally users might have friends that they can add to share their reviews with. 
+# Music Journal
+
+Music Journal is a web application that allows users to create accounts, log in, and write short music reviews. Reviews are stored in a MySQL database and linked to the user who created them. The project is built using PHP, MySQL, HTML, and CSS, and runs locally using XAMPP.
+
+## Technologies
+
+PHP
+
+MySQL
+
+XAMPP (Apache & MySQL)
+
+HTML / CSS
+
+
+## Installation & Setup
+
+- Install XAMPP and start Apache and MySQL.
+
+- Clone or download this repository and place it in: xampp/htdocs/
+
+- Open phpMyAdmin (http://localhost/phpmyadmin) and create a database (e.g. music_journal).
+
+- Import the database tables located in music_journal/db/music_journal.sql
+
+
+## Running the Application
+
+Open a browser and navigate to:
+
+http://127.0.0.1/music_journal/app/auth/login.php
+
+
+## Usage
+
+- Sign up for a new account
+
+- Log in with your credentials
+
+- Write and submit music reviews
+
+- View your previously posted reviews
+
+- Log out securely
+
+
+## Repository
+
+GitHub URL: https://github.com/Arinav5/music_journal
