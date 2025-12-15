@@ -86,7 +86,7 @@ mysqli_close($link);
                 <i class="icon fas fa-search"></i>
                 <span>Search</span>
             </a>
-            <a href="#" class="sidebar-link">
+            <a href="discovery.html" class="sidebar-link">
                 <i class="icon fas fa-compass"></i>
                 <span>Discover</span>
             </a>
@@ -102,7 +102,7 @@ mysqli_close($link);
                 <i class="icon fas fa-cog"></i>
                 <span>Settings</span>
             </a>
-            <a href="#" class="sidebar-link">
+            <a href="account.html" class="sidebar-link">
                 <i class="icon fas fa-user"></i>
                 <span>Profile</span>
             </a>
